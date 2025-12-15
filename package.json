@@ -1,0 +1,19 @@
+{
+  "name": "system-rmp",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm exec vite",
+    "build": "pnpm exec vite build",
+    "preview": "pnpm exec vite preview",
+    "typecheck": "pnpm exec tsc -b"
+  },
+  "dependencies": {
+    "@tf/utils": "workspace:*",
+    "@tf/i18n": "workspace:*",
+    "@tf/ui": "workspace:*",
+    "@tf/views": "workspace:*",
+    "@tf/types": "workspace:*"
+  }
+}

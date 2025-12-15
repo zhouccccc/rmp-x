@@ -1,0 +1,35 @@
+# dependencies
+/node_modules
+
+# plugin
+/public/plugin-*
+/public/allModuleRouter.json
+/public/plugins.js
+
+.cache
+.npmrc
+
+# testing
+/coverage
+
+# production
+/rmp
+/build
+/system-rmp
+/dist
+/tmp_build
+*.zip
+*.tar.gz
+
+# IDE
+.vscode
+.idea
+.fleet
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
